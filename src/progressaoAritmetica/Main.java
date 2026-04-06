@@ -1,3 +1,5 @@
+package progressaoAritmetica;
+
 import java.util.Scanner;
 
 public class Main {

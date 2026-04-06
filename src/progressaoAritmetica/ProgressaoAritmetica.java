@@ -1,3 +1,5 @@
+package progressaoAritmetica;
+
 public class ProgressaoAritmetica {
     private int primeiroTermo;
     private int razao;

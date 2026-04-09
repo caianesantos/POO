@@ -38,5 +38,8 @@ public class Main {
         pa.setRazao(novaRazao);
         System.out.println("A nova razão é: " + pa.getRazao());
 
+        for(int i = 1; i <= termo; i++) {
+            System.out.println(pa.toString());
+        }
     }
 }

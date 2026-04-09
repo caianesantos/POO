@@ -1,4 +1,6 @@
 /***
+ * ENCAPSULAMENTO
+ *
  * Implemente uma classe chamada ProgressaoAritmetica que possui três atributos
  * (primeiroTermo, razao, termoAtual) e um método chamado proximoTermo que
  * devolve o termo atual para quem chamou e calcula o próximo termo atualizando o

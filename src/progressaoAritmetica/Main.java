@@ -17,14 +17,26 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         ProgressaoAritmetica pa = new ProgressaoAritmetica(5);
-        System.out.println();
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite a quantidade de termos: ");
         int termo = sc.nextInt();
 
-        for(int i = 0; i <= termo; i++) {
+        for(int i = 1; i <= termo; i++) {
             System.out.println(pa.toString());
         }
+        System.out.println("O termo atual é: " + pa.getPrimeiroTermo());
+        System.out.println("A razão atual é: " + pa.getRazao());
+
+        System.out.println("Digite o novo termo: ");
+        int novoTermo = sc.nextInt();
+        pa.setPrimeiroTermo(novoTermo);
+        System.out.println("O novo termo é: " + pa.getPrimeiroTermo());
+
+        System.out.println("Digite a nova razão: ");
+        int novaRazao = sc.nextInt();
+        pa.setRazao(novaRazao);
+        System.out.println("A nova razão é: " + pa.getRazao());
+
     }
 }

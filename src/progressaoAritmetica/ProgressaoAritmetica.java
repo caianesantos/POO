@@ -16,8 +16,21 @@ public class ProgressaoAritmetica {
         return this.termoAtual;
     }
 
-    public int getProgressaoAritmetica(){
-        return this.termoAtual;
+    public int getPrimeiroTermo(){
+        return this.primeiroTermo;
+    }
+    public int getRazao(){
+        return this.razao;
+    }
+
+    public int setPrimeiroTermo(int termo){
+        this.primeiroTermo = termo;
+        return this.primeiroTermo;
+    }
+
+    public int setRazao(int razao){
+        this.razao = razao;
+        return this.razao;
     }
 
     public String toString(){
